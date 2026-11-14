@@ -1,0 +1,38 @@
+# Godot editor and cache
+.godot/
+*.tmp
+*.import/
+caches/
+export_*
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Godot debug logs
+.log.txt
+.editor_log
+gdsuffixes.cfg
+imported/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+*.godot-import
+*.tscn.bak
+*.tscn.tmp
+
+# Node/godot project temp files
+.idea/
+.vscode/
+*.local

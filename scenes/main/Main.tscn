@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/tavern/Tavern.tscn" id="1_tav"]
+[ext_resource type="PackedScene" path="res://scenes/ui/GameScreen.tscn" id="2_gs"]
+
+[node name="Main" type="Node"]
+
+[node name="Tavern" parent="." instance=ExtResource("1_tav")]
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="GameScreen" parent="UI" instance=ExtResource("2_gs")]
